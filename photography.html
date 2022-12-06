@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>alive and on earth</title>    <link rel="icon" href="icon.png">
+    <style media="screen">
+      p{
+        font-size: 15px;
+        font-family: monospace;
+        color: black;
+        background-color:  white ;
+        border-width: 1px;
+        border-color: black;
+        border-style: solid;
+        width: 50vw;
+        padding: 20px;
+
+
+      }
+      .welcomevideo{
+        position: absolute;
+        right: 2%;
+      }
+    </style>
+  </head>
+  <body><div class="welcomevideo">
+    <a href="works.html"> back</a>
+  </div>
+  <p>      I love taking photos, I'm not saying mine are better than yours!! <br> Photography can be a meditational practice, as long as you are making honest photos. <br> I have autism/ADD, so when I look around all the time to feel at ease. <br> From those moments looking around, I shoot very specific things and moments. <br>
+
+    <br><br>
+    with love, <br>
+    Noah
+    </p>
+
+
+<div class="photos">
+  <img height="500px" id="bannerImage" src=" photo/1.jpg" /><br />
+  <button onclick="changeImage(' photo/1.jpg')">Image 1</button>
+  <button onclick="changeImage(' photo/2.jpg')">Image 2</button>
+  <button onclick="changeImage(' photo/3.jpg')">Image 3</button>
+  <button onclick="changeImage(' photo/4.jpg')">Image 4</button>
+  <button onclick="changeImage(' photo/5.jpg')">Image 5</button>
+  <button onclick="changeImage(' photo/6.jpg')">Image 6</button>
+  <button onclick="changeImage(' photo/9.JPG')">Image 7</button>
+  <button onclick="changeImage(' photo/10.JPG')">Image 8</button>
+  <button onclick="changeImage(' photo/11.JPG')">Image 9</button>
+  <button onclick="changeImage(' photo/12.JPG')">Image 10</button>
+  <button onclick="changeImage(' photo/13.JPG')">Image 11</button>
+
+
+</div>
+
+<script>
+function changeImage(fileName) {
+let img = document.querySelector("#bannerImage");
+img.setAttribute("src", fileName);
+}
+</script>
+
+  </body>
+</html>

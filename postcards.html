@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>alive and on earth</title>    <link rel="icon" href="icon.png">
+    <style media="screen">
+      p{
+        font-size: 15px;
+        font-family: monospace;
+        color: black;
+        background-color:  white ;
+        border-width: 1px;
+        border-color: black;
+        border-style: solid;
+        width: 50vw;
+        padding: 20px;
+
+
+      }
+      .welcomevideo{
+        position: absolute;
+        right: 2%;
+      }
+    </style>
+  </head>
+  <body><div class="welcomevideo">
+    <a href="works.html"> back</a>
+  </div>
+  <p>      Voted the ugliest city in the world, Charleroi is a city with <br> a big industrial
+        history in Belgium, but has decayed since the
+        end  <br>of the 20th century. I photographed the
+        city during the summer and <br>winter and made
+        postcard from the photos. I distributed them
+        back in Charleroi for <br>free through a number
+        of book shops, restaurants, night shops <br> and
+        the museum of photography in Charleroi.
+    </p>
+
+
+<div class="photos">
+  <img height="500px" id="bannerImage" src=" charleroi/2.jpg" /><br />
+  <button onclick="changeImage(' charleroi/2.jpg')">Image 1</button>
+    <button onclick="changeImage(' charleroi/8.jpg')">back</button>
+  <button onclick="changeImage(' charleroi/3.jpg')">Image 2</button>
+      <button onclick="changeImage(' charleroi/8.jpg')">back</button>
+  <button onclick="changeImage(' charleroi/4.jpg')">Image 3</button>
+      <button onclick="changeImage(' charleroi/8.jpg')">back</button>
+  <button onclick="changeImage(' charleroi/5.jpg')">Image 4</button>
+      <button onclick="changeImage(' charleroi/8.jpg')">back</button>
+  <button onclick="changeImage(' charleroi/6.jpg')">Image 5</button>
+      <button onclick="changeImage(' charleroi/8.jpg')">back</button>
+  <button onclick="changeImage(' charleroi/7.jpg')">Image 6</button>
+      <button onclick="changeImage(' charleroi/8.jpg')">back</button>
+</div>
+
+<script>
+function changeImage(fileName) {
+let img = document.querySelector("#bannerImage");
+img.setAttribute("src", fileName);
+}
+</script>
+
+  </body>
+</html>

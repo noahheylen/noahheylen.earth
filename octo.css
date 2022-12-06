@@ -1,0 +1,34 @@
+body{
+  background-image: url( backg/sand.jpg);
+
+}
+.zeven{
+  position: fixed;
+  width: 15%;
+  top: 60%;
+  left:70%;
+}
+.zes{
+  position: fixed;
+  width: 30%;
+  top: 10%;
+  left:80%;
+}
+.vier{
+  position: fixed;
+  width: 20%;
+  bottom:4%;
+  left:14%;
+}
+.drie{
+  position: fixed;
+  width: 20%;
+  bottom:4%;
+  left:10%;
+}
+.king{
+  position: fixed;
+  width: 20%;
+  top:25%;
+  left:18%;
+}

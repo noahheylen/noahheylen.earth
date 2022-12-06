@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>alive and on earth</title>    <link rel="icon" href="icon.png">
+    <style media="screen">
+      p{
+        font-size: 15px;
+        font-family: monospace;
+        color: black;
+        background-color:  white ;
+        border-width: 1px;
+        border-color: black;
+        border-style: solid;
+        width: 50vw;
+        padding: 20px;
+
+
+      }
+      .welcomevideo{
+        position: absolute;
+        right: 2%;
+      }
+    </style>
+  </head>
+  <body><div class="welcomevideo">
+    <a href="about.html"> back</a>
+  </div>
+  <p>    Birds I view <br>
+    Group show organized and curated by Zeger Vetters.
+    </p>
+
+
+<div class="photos">
+  <img height="500px" id="bannerImage" src=" tent/w8.jpg" /><br />
+
+
+</div>
+
+<script>
+function changeImage(fileName) {
+let img = document.querySelector("#bannerImage");
+img.setAttribute("src", fileName);
+}
+</script>
+
+  </body>
+</html>

@@ -1,0 +1,42 @@
+body{
+  background-image: url( pink.gif);
+
+}
+.zeven{
+  position: fixed;
+  width: 15%;
+  top: 40%;
+  left:6%;
+}
+.zes{
+  position: fixed;
+  width: 30%;
+bottom:5%;
+  left:5%;
+}
+.acht{
+  position: fixed;
+  width: 30%;
+  top: 80%;
+  left:90%;
+}.negen{
+  position: fixed;
+  width: 30%;
+  top: 75%;
+  left:60%;
+}.tien{
+  position: fixed;
+  width: 30%;
+  top: 55%;
+  left:40%;
+}.elf{
+  position: fixed;
+  width: 30%;
+  top: 30%;
+  left:20%;
+}.twaalf{
+  position: fixed;
+  width: 30%;
+  top: 30%;
+  left:80%;
+}

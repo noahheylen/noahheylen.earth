@@ -1,0 +1,22 @@
+body{
+  background-image: url( backg/waterbg.gif);
+
+}
+.zeven{
+  position: fixed;
+  width: 15%;
+  top: 55%;
+  left:18%;
+}
+.zes{
+  position: fixed;
+  width: 500px;
+  top: 40%;
+  left:30%;
+}
+.vier{
+  position: fixed;
+  width: 20%;
+  bottom:12%;
+  right: 10%;
+}

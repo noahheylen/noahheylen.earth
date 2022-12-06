@@ -1,0 +1,46 @@
+body{
+  background-image: url( trilogy/sky.gif);
+
+}
+.g1{
+  position: fixed;
+  width: 15%;
+  top: 20%;
+  left:70%;
+}
+.g2{
+  position: fixed;
+  width: 30%;
+  top: 40%;
+  left:30%;
+}
+.g3{
+  position: fixed;
+  width: 20%;
+top: 25%;
+  left:10%;
+}
+.carglobe{
+  position: fixed;
+  width: 20%;
+  bottom:20%;
+  left:5%;
+}
+.road{
+  position: fixed;
+  width: 20%;
+  bottom:4%;
+  left:10%;
+}
+.road2{
+  position: fixed;
+  width: 20%;
+  bottom:4%;
+  left:30%;
+}
+.road3{
+  position: fixed;
+  width: 20%;
+  bottom:4%;
+  left:50%;
+}

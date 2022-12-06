@@ -1,0 +1,16 @@
+.brood{
+text-align: center;
+height: 300px;
+}
+.nummer{
+text-align: center;
+font-weight: bolder;
+font-size: 50px;
+}
+body{
+
+  background-color: black;
+  background-repeat: repeat;
+  height: 100vh;
+
+}
