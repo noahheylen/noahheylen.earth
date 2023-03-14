@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>bbbbbbbbbbbbbbbbb</title>
+    <link rel="stylesheet" href="stylove.css">
+  </head>
+  <body>
+love u my partner in crime pain au beurre, i wanna fight the world with you
+<333333333333333333333333333333333333333333333333333333333333333333333333333 <br>
+<a href="https://open.spotify.com/playlist/0K0nP2ipxux1qukezrFWbp?si=eab0d88d5c044f26">https://open.spotify.com/playlist/0K0nP2ipxux1qukezrFWbp?si=eab0d88d5c044f26</a>
+<div id="sketch">
+  <canvas id="paint"></canvas>
+</div>
+
+<div id="settings"> Colours
+  <button onclick="getColor('blue');">Blue</button>
+  <button onclick="getColor('red');">Red</button>
+  <button onclick="getColor('green');">Green</button>
+  <button onclick="getColor('white');">White</button>
+  <button onclick="getColor('#333333');">Eraser</button>
+</div>
+
+<div id="settings"> Brush Size
+  <button onclick="getSize('2');">Small</button>
+  <button onclick="getSize('5');">Med</button>
+  <button onclick="getSize('10');">Large</button>
+  <button onclick="getSize('20');">X Large</button>
+</div>
+
+<script type="text/javascript">
+  var canvas = document.getElementById('paint');
+var ctx = canvas.getContext('2d');
+
+var sketch = document.getElementById('sketch');
+var sketch_style = getComputedStyle(sketch);
+canvas.width = 500;
+canvas.height = 250;
+
+var mouse = {x: 0, y: 0};
+
+/* Mouse Capturing Work */
+canvas.addEventListener('mousemove', function(e) {
+  mouse.x = e.pageX - this.offsetLeft;
+  mouse.y = e.pageY - this.offsetTop;
+}, false);
+
+/* Drawing on Paint App */
+ctx.lineJoin = 'round';
+ctx.lineCap = 'round';
+
+ctx.strokeStyle = "red";
+function getColor(colour){ctx.strokeStyle = colour;}
+
+function getSize(size){ctx.lineWidth = size;}
+
+
+//ctx.strokeStyle =
+//ctx.strokeStyle = document.settings.colour[1].value;
+
+canvas.addEventListener('mousedown', function(e) {
+    ctx.beginPath();
+    ctx.moveTo(mouse.x, mouse.y);
+
+    canvas.addEventListener('mousemove', onPaint, false);
+}, false);
+
+canvas.addEventListener('mouseup', function() {
+    canvas.removeEventListener('mousemove', onPaint, false);
+}, false);
+
+var onPaint = function() {
+    ctx.lineTo(mouse.x, mouse.y);
+    ctx.stroke();
+};
+</script>
+
+<img src="1.png" alt="" width="500px">
+<img src="39.png" alt="" width="500px">
+<img src="3.png" alt="" width="500px">
+<img src="4.png" alt="" width="500px">
+
+<img src="6.png" alt="" width="500px">
+<img src="2.png" alt="" width="500px">
+<img src="38.png" alt="" width="500px">
+<img src="37.png" alt="" width="500px">
+<img src="36.png" alt="" width="500px">
+<img src="35.png" alt="" width="500px">
+<img src="7.png" alt="" width="500px">
+<img src="34.png" alt="" width="500px">
+<img src="8.png" alt="" width="500px">
+<img src="33.png" alt="" width="500px">
+<img src="9.png" alt="" width="500px">
+<img src="10.png" alt="" width="500px">
+<img src="11.png" alt="" width="500px">
+<img src="32.png" alt="" width="500px">
+<img src="31.png" alt="" width="500px">
+<img src="30.png" alt="" width="500px">
+<img src="12.png" alt="" width="500px">
+<img src="29.png" alt="" width="500px">
+<img src="13.png" alt="" width="500px">
+<img src="28.png" alt="" width="500px">
+<img src="27.png" alt="" width="500px">
+<img src="14.png" alt="" width="500px">
+<img src="15.png" alt="" width="500px">
+<img src="16.png" alt="" width="500px">
+<img src="26.png" alt="" width="500px">
+<img src="25.png" alt="" width="500px">
+<img src="24.png" alt="" width="500px">
+<img src="23.png" alt="" width="500px">
+<img src="22.png" alt="" width="500px">
+<img src="19.png" alt="" width="500px">
+<img src="18.png" alt="" width="500px">
+<img src="17.png" alt="" width="500px">
+<img src="1.png" alt="" width="500px">
+<img src="2.png" alt="" width="500px">
+<img src="1.png" alt="" width="500px">
+<img src="2.png" alt="" width="500px">
+<img src="1.png" alt="" width="500px">
+<img src="2.png" alt="" width="500px">
+<img src="1.png" alt="" width="500px">
+<img src="1.png" alt="" width="500px">
+<img src="2.png" alt="" width="500px">
+<img src="1.png" alt="" width="500px">
+<img src="2.png" alt="" width="500px">
+<img src="1.png" alt="" width="500px">
+<video width="1000px" src="vid.mp4" autoplay poster="posterimage.jpg" controls>
+
+</video>
+  </body>
+</html>
